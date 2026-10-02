@@ -1,3 +1,21 @@
 body {
     background-color: aquamarine;
 }
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color:rgb(39, 244, 39);
+}
+.logo {
+    border-radius: 10%;
+}
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
