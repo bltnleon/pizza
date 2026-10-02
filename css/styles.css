@@ -1,6 +1,7 @@
 body {
     background-color: aquamarine;
 }
+
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -18,4 +19,34 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 5px;
     cursor: pointer;
+
+/* Hero Section */
+.hero {
+    display: flex;
+    background-color: rgb(222, 222, 18);
+    padding: 2rem;
+}
+.hero-image {
+    max-width: 400px;
+    height: 300px;
+    margin-right: 5rem;
+    border-radius: 10%;
+}
+.hero-text {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.btn {
+    background-color: rgb(38, 105, 38);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+
 }
